@@ -1,0 +1,25 @@
+salario = float(input('Digite seu salário: '))
+if salario <= 280:
+    reajuste = salario + (salario * 20/100)
+    print('Seu salário atualmente é de R$ {:.2f}'.format(salario))
+    print('Você ganhará um aumento de 20%!')
+    print('O aumento é de R$ {:.2f}'.format(salario * 20/100))
+    print('Seu salário ficará R$ {:.2f}'.format(reajuste))
+elif salario <= 700:
+    reajuste = salario + (salario * 15/100)
+    print('Seu salário atualmente é de R$ {:.2f}'.format(salario))
+    print('Você ganhará um aumento de 15%!')
+    print('O aumento é de R$ {:.2f}'.format(salario * 15/100))
+    print('Seu salário ficará R$ {:.2f}'.format(reajuste))
+elif salario <= 1500:
+    reajuste = salario + (salario * 10/100)
+    print('Seu salário atualmente é de R$ {:.2f}'.format(salario))
+    print('Você ganhará um aumento de 10%!')
+    print('O aumento é de R$ {:.2f}'.format(salario * 10/100))
+    print('Seu salário ficará R$ {:.2f}'.format(reajuste))
+elif salario >= 1500:
+    reajuste = salario + (salario * 5/100)
+    print('Seu salário atualmente é de R$ {:.2f}'.format(salario))
+    print('Você ganhará um aumento de 5%!')
+    print('O aumento é de R$ {:.2f}'.format(salario * 5/100))
+    print('Seu salário ficará R$ {:.2f}'.format(reajuste))

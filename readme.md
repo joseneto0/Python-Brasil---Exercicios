@@ -1,0 +1,1 @@
+Exercícios feitos para treinar lógica e treinar os conceitos da linguagem python :D
